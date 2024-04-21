@@ -2,6 +2,7 @@ import Text from "./components/text/Text";
 import Landing from "./components/landing/Landing";
 import Header from "./components/header/Header";
 import Connexion from "./pages/Connexion";
+import { Posts } from "./components/posts/Posts";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         text="This is the set-up of the project Go Trabakho"
       />
       <Connexion />
+      <Posts />
     </>
   );
 }

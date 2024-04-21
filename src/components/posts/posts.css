@@ -1,0 +1,126 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 32px;
+  width: 780px;
+  background-color: var(--white, #fff);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.post .header {
+  margin-bottom: 16px;
+}
+
+.post .header .publisher .profil-pic {
+  width: 50px;
+  height: 50px;
+}
+
+.post .header .publisher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: fit-content;
+}
+
+.post .header .publisher .profil-pic img {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.post .header .publisher .info .username {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.post .header .publisher .info .time-ago {
+  font-size: 12px;
+  color: var(--medium-grey);
+}
+
+.post .header .three-dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.post .header .three-dots:hover {
+  background-color: var(--soft-grey);
+  cursor: pointer;
+}
+
+.post .header .dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--medium-grey);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.post .header .three-dots:hover .dot {
+  opacity: 0.7;
+}
+
+.post .job-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.post .description {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.post-image {
+  height: fit-content;
+  margin-bottom: 16px;
+}
+
+.post-image img {
+  width: 100%;
+  max-height: 898px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.badge {
+  padding: 4px 8px;
+  color: var(--white, #fff);
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: var(--dark-blue, #000b4f);
+}
