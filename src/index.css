@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Variables */
+:root {
+  --white: #fff;
+  --black: #000;
+  --soft-grey: #ebebeb;
+  --medium-grey: #6d6d6d;
+  --dark-grey: #323232;
+  --soft-blue: #829cd0;
+  --medium-blue: #20368f;
+  --medium-blue-hover: #243da0;
+  --medium-blue-active: #2d4bc4;
+  --dark-blue: #000b4f;
+  --red: #da4040;
+  --background: #f2f2f2;
+  --shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04),
+    0px 4px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Global rules */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Inter;
+}
+
+/* Framework */
+.center,
+.left,
+.right,
+.space-b {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left {
+  justify-content: left;
+}
+
+.right {
+  justify-content: right;
+}
+
+.space-b {
+  justify-content: space-between;
+}
