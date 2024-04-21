@@ -19,10 +19,12 @@
 
 .Button0:hover {
   background-color: var(--medium-blue-hover, #243da0);
+  border: 1px solid var(--medium-blue-hover, #243da0);
 }
 
 .Button0:active {
   background-color: var(--medium-blue-active, #3b59d3);
+  border: 1px solid var(--medium-blue-active, #243da0);
 }
 
 .Button1 {
@@ -34,11 +36,12 @@
 .Button1:hover {
   color: var(--white, #ffffff);
   background-color: var(--medium-blue-hover, #243da0);
-  border: none;
+  border: 1px solid var(--medium-blue-hover, #243da0);
 }
 
 .Button1:active {
   background-color: var(--medium-blue-active, #3b59d3);
+  border: 1px solid var(--medium-blue-active, #243da0);
 }
 
 .Button-full {

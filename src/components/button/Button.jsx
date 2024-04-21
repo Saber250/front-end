@@ -2,10 +2,10 @@ import "./button.css";
 
 export default function Button({ value, style = 0 }) {
   let full = false;
-  if (style === 30) {
+  if (style === 10) {
     style = 0;
     full = true;
-  } else if (style === 31) {
+  } else if (style === 11) {
     style = 1;
     full = true;
   }

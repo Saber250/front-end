@@ -1,9 +1,11 @@
 import Text from "./components/text/Text";
 import Landing from "./components/landing/Landing";
+import Header from "./components/header/Header";
 
 export default function App() {
   return (
     <>
+      <Header />
       <Landing nombreOffres={500} />
       <Text
         title="Project set-up"
