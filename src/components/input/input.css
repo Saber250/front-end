@@ -1,0 +1,31 @@
+.Input {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input label {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.Input input {
+  font-family: Inter;
+  font-size: 16px;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.Input input::placeholder {
+  color: var(--medium-grey, #6d6d6d);
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
