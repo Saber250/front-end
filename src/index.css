@@ -27,6 +27,12 @@
 
 body {
   font-family: Inter;
+  background-color: var(--background, #f2f2f2);
+}
+
+a {
+  color: var(--medium-blue);
+  font-weight: 600;
 }
 
 /* Framework */
